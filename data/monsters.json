@@ -1,0 +1,47 @@
+[
+    {
+        "MonsterID": 1,
+        "Name": "Goblin",
+        "Type": "Monstrous Humanoid",
+        "Stat": {"HIT_POINT_MAXIMUM":10,"POWER":5,"SPEED":7,"MAGIC":4},
+        "Monster Level":2,
+        "Gear": {"Weapon":"Rusty Dagger","Armor":"Tattered Cloth"},
+        "Abilities": ["Weapon Attack","Stealth","Run Away"]
+    },
+    {
+        "MonsterID": 2,
+        "Name": "Orc",
+        "Type": "Monstrous Humanoid",
+        "Stat": {"HIT_POINT_MAXIMUM":20,"POWER":10,"SPEED":5,"MAGIC":2},
+        "Monster Level":3,
+        "Gear": {"Weapon":"Iron Axe","Armor":"Leather Armor"},
+        "Abilities": ["Weapon Attack","Berserk","Intimidate"]
+    },
+    {
+        "MonsterID": 3,
+        "Name": "Dragon",
+        "Type": "Dragon",
+        "Stat": {"HIT_POINT_MAXIMUM":100,"POWER":25,"SPEED":15,"MAGIC":30},
+        "Monster Level":10,
+        "Gear": {"Weapon":"Fire Breath","Armor":"Scaly Hide"},
+        "Abilities": ["Fire Breath","Fly","Tail Swipe"]
+    },
+    {
+        "MonsterID": 4,
+        "Name": "Skeleton",
+        "Type": "Undead",
+        "Stat": {"HIT_POINT_MAXIMUM":5,"POWER":7,"SPEED":6,"MAGIC":10},
+        "Monster Level":2,
+        "Gear": {"Weapon":"Bone Sword","Armor":"Bone Armor"},
+        "Abilities": ["Weapon Attack","Resurrect","Fear Aura"]
+    },
+    {
+        "MonsterID":5,
+        "Name":"Vampire Cow",
+        "Type":"Undead",
+        "Stat":{"HIT_POINT_MAXIMUM":30,"POWER":12,"SPEED":10,"MAGIC":8},
+        "Monster Level":5,
+        "Gear":{"Weapon":"Sharp Horns","Armor":"Thick Hide"},
+        "Abilities":["Blood Drain","Night Vision","Hypnotic Gaze"]
+    }
+]
