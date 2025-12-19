@@ -1,26 +1,27 @@
-#include"Stat.h"
-#include"CharacterClass.h"
+#ifndef PLAYER_H
+#define PLAYER_H
+
+#include "Stat.h"
+#include "CharacterClass.h"
 
 class Player 
 {
 private:
-	rpg::Stat baseStats;
-	int currentHP;
-	int level;
-	int expPoints;
-    //rpg::CharacterClass &assignedClass;
+    rpg::Stat baseStats;
+    int currentHP;
+    int level;
+    int expPoints;
+    // rpg::CharacterClass &assignedClass;
+
 public:
-    Player() : 
-        baseStats(0, 0, 0, 0), 
-        currentHP(0), 
-        level(1), 
-        expPoints(0)
-	{};
-    int getLevel() const { return level; }
-    int getCurrentHP() const { return currentHP; }
-    const rpg::Stat& getBaseStats() const { return baseStats; }
+    Player();  // Constructor declaration
+    int getLevel() const;
+    int getCurrentHP() const;
+    const rpg::Stat& getBaseStats() const;
     void createNewPlayer(const rpg::Stat& stats);
-    void takeDamage(int dmg);
+    void takeDamage(int damageAmount);
     void gainXP(int xpValue);
     void levelUp();
 };
+
+#endif
